@@ -1,0 +1,32 @@
+
+//abstracts
+@import"abstracts/variables";
+@import"abstracts/mixins";
+//vendor
+@import "vendor/boostrap/bootstrap.scss";
+
+//reset
+@import"base/reset.scss";
+@import"base/typografia";
+
+
+
+
+//layout
+@import"layout/navigation";
+@import"layout/header";
+@import "layout/main-section";
+@import "layout/aboutseccion";
+@import"layout/pages";
+@import "layout/footer";
+
+//components
+
+@import"components/button.scss";
+
+//pages
+//no supe que agregar no tenia mas paginas agregar 
+
+//themes
+// aun nose bien que va aqui profe
+

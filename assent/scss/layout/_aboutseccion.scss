@@ -1,0 +1,28 @@
+.about_section{
+    border-top: 1px solid $color-ligt ;
+    border-bottom: 1px solid $color-ligt ;
+}
+
+.img-naomi {
+    width: 8.125em;
+}
+
+.about_section__row_col-author {
+    color: $color-Eerie ;
+    font-family: $playfair-display;
+    font-size: $x-large;
+    font-style: italic;
+    font-weight: $bold ;
+}
+
+.about_section__row_col-author-links {
+    font-weight: $light;
+    font-family: $roboto;
+    font-size: $medium;
+    color: $color-ruddy;
+    text-decoration: none!important;
+
+    &:hover {
+        color: $color-raisin;
+    }
+}

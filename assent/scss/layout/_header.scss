@@ -1,0 +1,29 @@
+.header {
+    height: 100vh;
+    background-image: url("../img/post-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    a {
+        bottom: 5%;
+        position: absolute;
+}
+
+}
+
+h1 {
+    font-family: $playfair-display;
+    font-size: 80px;
+    font-weight: $bold ;
+    font-style: italic;
+    color: $color-white;
+}
+
+p {
+    text-align: justify;
+}
+
+.navbar-toggler-icon{
+    color:$color-white ;
+}

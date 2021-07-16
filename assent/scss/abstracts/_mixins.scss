@@ -1,0 +1,15 @@
+//botones conjunto
+
+@mixin botones {
+    border-radius: 40px;
+    border: none;
+    background-color: $color-nickel;
+    color: $color-white;
+    font-size: 14px;
+    padding: 0.5em;
+
+    &:hover {
+        background-color: $color-ligt;
+        color: $color-white;
+    }
+}

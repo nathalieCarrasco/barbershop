@@ -1,0 +1,20 @@
+.navbar {
+    background-color: $color-Eerie ;
+    font-family: $roboto;
+}
+
+.nav-link {
+    color: $color-white ;
+   
+    &:hover {
+        color: $color-spanish ;
+    }
+}
+
+.fa-bars {
+    color: $color-white ;
+}
+
+.navbar-brand-img {
+    width: 3em;
+}
